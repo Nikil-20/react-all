@@ -8,6 +8,7 @@ function App() {
   return (
     <>
       <h1>hello from andy</h1>
+      <h2> hello from nick </h2>
     </>
   )
 }
