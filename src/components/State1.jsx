@@ -1,6 +1,6 @@
 import { useState } from 'react';
 
-function StateComponents() {
+function State1() {
   const [count, setCount] = useState(0);
 
   function incre() {
@@ -8,6 +8,7 @@ function StateComponents() {
   }
 
   return (
+    <>
     <div className="min-h-screen flex items-center justify-center bg-slate-50 ">
       <div className="bg-white p-10 rounded-lg shadow-xl text-center">
         <h1 className="text-5xl font-bold mb-6 text-gray-800">Count: {count}</h1>
@@ -19,7 +20,8 @@ function StateComponents() {
         </button>
       </div>
     </div>
+    </>
   );
 }
 
-export default StateComponents;
+export default State1;

@@ -3,13 +3,16 @@ import { useState } from 'react'
 import './App.css'
 import Nav from './components/Nav'
 import Home from './components/Home'
-import StateComponents from './components/StateComponents'
+import State1 from './components/State1'
+import State2 from './components/State2'
+import Apifetch from './components/Apifetch'
+import Product from './components/Product'
+import Form from './components/Forms'
 import About from './components/About'
 import Login from './components/Login'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
@@ -17,7 +20,11 @@ function App() {
       <Nav/>
       <Routes>
         <Route path='/' element={<Home/>}/>
-        <Route path="/state" element={<StateComponents />} />
+        <Route path="/state1" element={<State1 />} />
+        <Route path="/state2" element={<State2 />} />
+        <Route path="/apifetch" element={<Apifetch />} />
+        <Route path="/product" element={<Product />} />
+        <Route path="/form" element={<Form />} />
         <Route path="/about" element={<About />} />
         <Route path='/login' element={<Login/>}/>
   

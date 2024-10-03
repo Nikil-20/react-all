@@ -16,8 +16,28 @@ function Nav(){
             </Link>
           </li>
           <li>
-            <Link to="/state" className="text-white hover:text-gray-200">
-              State Components
+            <Link to="/state1" className="text-white hover:text-gray-200">
+              State1
+            </Link>
+          </li>
+          <li>
+            <Link to="/state2" className="text-white hover:text-gray-200">
+              State2
+            </Link>
+          </li>
+          <li>
+            <Link to="/apifetch" className="text-white hover:text-gray-200">
+              Apifetch
+            </Link>
+          </li>
+          <li>
+            <Link to="/product" className="text-white hover:text-gray-200">
+              Product
+            </Link>
+          </li>
+          <li>
+            <Link to="/form" className="text-white hover:text-gray-200">
+              Form
             </Link>
           </li>
           <li>
