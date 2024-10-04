@@ -3,7 +3,6 @@ import React, { useState } from 'react';
 function LoginPage(){
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
-
   const handleSubmit = (e) => {
     e.preventDefault();
     // Add your login logic here

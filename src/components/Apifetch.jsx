@@ -2,7 +2,6 @@ import React, { useEffect } from "react";
 import { useState } from "react";
 import Skeleton from 'react-loading-skeleton';
 import 'react-loading-skeleton/dist/skeleton.css';
-
 function Apifetch() {
   const [maindata, setmaindata] = useState([]);
 
